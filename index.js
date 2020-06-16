@@ -38,7 +38,7 @@ client.on('message', (message) => {
     return message.reply('이→히↗이→히↗이→히↗');
   }
   if(message.content == '!지건') {
-    message.reply('니 지건이 제일 아파!');
+    return message.reply('니 지건이 제일 아파!');
   }
 
   if(message.content.startsWith('!전체공지')) {
